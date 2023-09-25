@@ -181,6 +181,9 @@ li{
     text-align: center;
     padding: 25px;
 }
+.correo{
+    color: #000;
+}
 
 
 @media(max-width: 750px){
