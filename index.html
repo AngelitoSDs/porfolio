@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Welcome</title>
 
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <div>
-                <a href=""></a>
+    <header id="mainheader">
+        <nav id="navbar">
+            <div class="container">
+                <a href="" class="logo"><img src="/assets/img/logoAngel.jpg" alt="logo"></a>
                 <ul>
                     <li><a href="">Proyectos</a></li>
                     <li><a href="">sobre mi</a></li>
@@ -20,32 +21,82 @@
                 </ul>
             </div>
         </nav>
-        <div>
-            <div>
-                <a href="">Proyectos</a>
+        <div id="showcase">
+            <div class="container">
+                <a href="" class="btn btn-outline">Proyectos</a>
             </div>
         </div>
     </header>
     
 
-    <section>
-        <div>
-            <h2>Proyectos</h2>
-            <div>
-                <div>
-                    <img src="" alt="proje"> 
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-row">
+                <div class="projects-row-detail">
+                    <img src="/assets/img/portfolio-1.jpg" alt="proje"> 
                 </div>
-                <div>
-                    <img src="" alt="proje"> 
+                <div class="projects-row-detail">
+                    <img src="/assets/img/portfolio-2.jpg" alt="proje"> 
                 </div>
-                <div>
-                    <img src="" alt="proje"> 
+                <div class="projects-row-detail">
+                    <img src="/assets/img/portfolio-3.jpg" alt="proje"> 
                 </div>
             </div>
 
         </div>
     </section>
-  
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mi</h2>
+            <div class="about-row">
+                <div class="about-row-experience">
+                    <h4>Experiencias</h4>
+                    <p class="large">Development Tulojita - 2023</p>
+                    <p class="large">Development Posada Turística - 2020</p>
+                    <p class="large">Development app de prestación de servicios - 2022</p>
+                </div>
+                <div class="about-row-me">
+                    <h4>sobre mi</h4>
+                    <p>
+                        Soy Angel Garcia Actualmente en espera de titulo de licenciatura en "Contaduría pública". siempre he sido un apasionado de la tegnologia;
+                        un dia decidi cambiar mi pasion hacia el trabajo y empece a estudiar desarrollo web por mi propia cuenta, y enseguida aprendi a usar
+                        HTML, CSS Y JavaScript, su finalidad es llegar al backend, que es el lado del servidor de una aplicación web. <br>
+                        Me he dado cuenta que mis conocimientos de contabilidad pueden ser muy útil en el desarrollo web para mejorar las gention de las finanzas
+                        de las empresas analizando datos reales de bases de datos; Actualmente me siento muy contento combinando la contabilidad y la tegnología.  
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-row">
+                <div class="contact-row-icon"> 
+                    <img src="/assets/img/icon-address.png" alt="">
+                    <p>ubicación</p>
+                </div>
+                <div class="contact-row-icon"> 
+                    <img src="/assets/img/icon-mail.png" alt="">
+                    <p>correo</p>
+                </div>
+                <div class="contact-row-icon"> 
+                    <img src="/assets/img/icon-phone.png" alt="">
+                    <p>0424-9317051</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            &copy Derechos De Autor 2020-2022
+        </div>
+        
     </section>
 </body>
 </html>
